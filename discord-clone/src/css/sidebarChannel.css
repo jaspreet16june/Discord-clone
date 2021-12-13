@@ -1,0 +1,15 @@
+.sidebarChannels_list{
+    padding:20px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+}
+/* .sidebarChannels_list:hover{
+    back
+} */
+.sidebarChannel_hash{
+    padding:8px;
+    font-size: 30px;
+}
