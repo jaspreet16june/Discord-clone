@@ -1,0 +1,40 @@
+.sidebar{
+    background-color: #2f3135;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex:0.25;
+}
+.sidebar_Top{
+    padding:20px;
+    color: white;
+    border-bottom:3px solid #26282c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar_channels{
+    flex:1;
+}
+.sidebar_addChannel{
+    cursor: pointer;
+}
+.sidebar_addChannel:hover{
+    color: white;
+}
+.sidebar_channelsHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3135;
+    color: gray;
+}
+.sidebar_Header{
+    display: flex;
+    align-items: center;
+}
+.sidebarChannels_list{
+    padding:20px;
+    
+}
