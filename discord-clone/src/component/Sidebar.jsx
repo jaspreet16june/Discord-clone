@@ -1,5 +1,8 @@
-// #4fb185
-
+import { Avatar } from "@material-ui/core";
+import MicIcon from "@material-ui/icons/Mic";
+import HeadsetIcon from "@material-ui/icons/Headset";
+import SettingsIcon from "@material-ui/icons/Settings";
+import SidebarDown from "../component/SidebarDown"
 import ExpandMoreIcon from "@material-ui/icons/ExpandMoreOutlined";
 import AddIcon from "@material-ui/icons/AddOutlined";
 import React from "react";
@@ -26,6 +29,21 @@ const Sidebar = () => {
           <SidebarChannel />
           <SidebarChannel />
           <SidebarChannel />
+        </div>
+      </div>
+      <div className="sidebar_down">
+        <SidebarDown />
+      </div>
+      <div className="sidebar_profile">
+        <Avatar/>
+        <div className="sidebar_profileInfo">
+          <h3>@jaspreet kaur</h3>
+          <p>#thisIsMyId</p>
+        </div>
+        <div className="sidebar_profileIcons">
+          <MicIcon />
+          <HeadsetIcon />
+          <SettingsIcon />
         </div>
       </div>
     </div>

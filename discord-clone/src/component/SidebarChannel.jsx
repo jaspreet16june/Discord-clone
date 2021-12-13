@@ -3,8 +3,8 @@ import "../css/sidebarChannel.css"
 
 const SidebarChannel = () => {
     return (
-        <div>
-            <h3 className='sidebarChannel'>
+        <div className='sidebarChannel'>
+            <h3>
             <span className="sidebarChannel_hash">#</span>Youtube    
             </h3>
         </div>
