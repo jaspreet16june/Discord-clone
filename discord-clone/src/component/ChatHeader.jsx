@@ -17,8 +17,10 @@ const ChatHeader = () => {
             <NotificationsIcon />
             <EditLocationIcon />
             <GroupIcon />
+            <div className="chatHeader_search">
             <input type="text" placeholder='Search'  />
-            <SearchIcon />
+            <SearchIcon className='search'/>
+            </div>
             <SendIcon />
             <HelpIcon />
             </div>
