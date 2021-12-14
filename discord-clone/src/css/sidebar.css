@@ -58,6 +58,9 @@
     color: gray;
 }
 .sidebar_profileIcons > .MuiSvgIcon-root{
-
     padding: 10px;
+}
+.sidebar_profileIcons{
+    display: flex;
+    flex-direction: column;
 }

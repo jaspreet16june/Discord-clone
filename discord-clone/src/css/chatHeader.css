@@ -1,0 +1,13 @@
+.Chat_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chat_headerHash{
+    color:gray;
+    padding: 20px;
+    font-size: 25px;
+}
+.chat_headerLeft h3{
+    color:white;
+}

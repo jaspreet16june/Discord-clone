@@ -20,3 +20,7 @@
 .sidebar_voiceIcons > .MuiSvgIcon-root{
     padding: 10px;
 }
+.sidebar_voiceIcons{
+    display: flex;
+    flex-direction: column;
+}
