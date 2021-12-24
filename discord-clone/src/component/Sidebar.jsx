@@ -8,8 +8,11 @@ import AddIcon from "@material-ui/icons/AddOutlined";
 import React from "react";
 import "../css/sidebar.css"
 import SidebarChannel from "../component/SidebarChannel";
+import { useSelector } from "react-redux";
+
 
 const Sidebar = () => {
+ const user = useSelector((state) => state)
   return (
     <div className="sidebar">
       <div className="sidebar_Top">
@@ -35,10 +38,10 @@ const Sidebar = () => {
         <SidebarDown />
       </div>
       <div className="sidebar_profile">
-        <Avatar/>
+        <Avatar src ={user.photo}/>
         <div className="sidebar_profileInfo">
-          <h3>@jaspreet kaur</h3>
-          <p>#thisIsMyId</p>
+          <h3>{user.displayName}</h3>
+          <p>{user.email}</p>
         </div>
         <div className="sidebar_profileIcons">
           <MicIcon />
