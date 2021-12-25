@@ -22,9 +22,8 @@ function App() {
           email:authUser.email,
         }))
       }
-    
     })
-  })
+  },[dispatch]);
   return (
     <div className='app'>
     {

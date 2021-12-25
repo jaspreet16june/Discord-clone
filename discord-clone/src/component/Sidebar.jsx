@@ -38,10 +38,10 @@ const Sidebar = () => {
         <SidebarDown />
       </div>
       <div className="sidebar_profile">
-        <Avatar src ={user.photo}/>
+        <Avatar src ={user.user.photo}/>
         <div className="sidebar_profileInfo">
-          <h3>{user.displayName}</h3>
-          <p>{user.email}</p>
+          <h3>{user.user.displayName}</h3>
+          <p>{user.user.email}</p>
         </div>
         <div className="sidebar_profileIcons">
           <MicIcon />
